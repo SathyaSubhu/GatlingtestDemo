@@ -1,0 +1,18 @@
+{
+  "simulation": "testscripts.PlayerSimulation",
+  "simulationId": "playersimulation",
+  "start": 1597326471453,
+  "description": "",
+  "scenarios": ["Create player"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "count of failed events",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Global: count of failed events is 0.0",
+  "actualValue": [0.0]
+}
+  ]
+}

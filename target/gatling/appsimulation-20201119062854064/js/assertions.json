@@ -1,0 +1,18 @@
+{
+  "simulation": "testscripts.AppSimulation",
+  "simulationId": "appsimulation",
+  "start": 1605767334064,
+  "description": "",
+  "scenarios": ["Home Page"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "count of failed events",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Global: count of failed events is 0.0",
+  "actualValue": [0.0]
+}
+  ]
+}
